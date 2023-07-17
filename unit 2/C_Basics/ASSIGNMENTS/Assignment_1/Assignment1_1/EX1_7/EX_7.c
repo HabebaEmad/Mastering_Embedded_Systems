@@ -10,12 +10,13 @@ int main()
 {
     float a,b;
     printf("Enter value of a: ");
-    fflush(stdout);
     scanf("%f",&a);
     printf("Enter value of b: ");
-    fflush(stdout);
     scanf("%f",&b);
-    printf("After swapping, value of a = %.2f",b);
-    printf("\r\nAfter swapping, value of b = %.1f",a);
+    a=b-a;
+    b=b-a;
+    a=b+a;
+    printf("After swapping, value of a = %.2f",a);
+    printf("\r\nAfter swapping, value of b = %.1f",b);
 
 }
