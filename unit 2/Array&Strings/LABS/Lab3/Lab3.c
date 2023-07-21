@@ -18,7 +18,7 @@ int main()
             scanf("%f",&matrix[row][col]);
         }
     }
-    printf("the matrix is\n ");
+    printf("the matrix is\n");
     for ( int r=0;r<3;r++)
     {
         for(int c=0; c<3; c++)
@@ -27,7 +27,7 @@ int main()
         }
         printf("\r\n");
     }
-    printf("the Transpose matrix is\n ");
+    printf("the Transpose matrix is\n");
     for(int ct=0; ct<3; ct++)
     {
         for (int rt=0; rt<3; rt++)

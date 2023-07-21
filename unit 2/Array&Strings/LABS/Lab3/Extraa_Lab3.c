@@ -23,7 +23,7 @@ int main()
             scanf("%f",&matrix[row][col]);
         }
     }
-    printf("the matrix is\n ");
+    printf("the matrix is\n");
     for ( int r=0;r<rows;r++)
     {
         for(int c=0; c<cols; c++)
@@ -32,7 +32,7 @@ int main()
         }
         printf("\r\n");
     }
-    printf("the Transpose matrix is\n ");
+    printf("the Transpose matrix is\n");
     for(int ct=0; ct<cols; ct++)
     {
         for (int rt=0; rt<rows; rt++)
