@@ -41,7 +41,6 @@ int main()
             printf("%.1f divide %.1f = %.1f",x,y,result);
         }
         break;
-
     }
 
 }
