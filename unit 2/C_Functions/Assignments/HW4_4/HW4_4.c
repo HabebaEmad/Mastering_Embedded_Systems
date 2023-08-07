@@ -6,9 +6,10 @@ Author: Habeba Emad
 */
 #include <stdio.h>
 
+int product =1;
+
 int Power(int base_number,int power_number)
 {
-    static int product =1;
     if(power_number>0)
     {
         product*=base_number;
@@ -25,5 +26,5 @@ int main()
     scanf("%d",&base_number);
     printf("Enter power number(positive integer): ");
     scanf("%d",&power_number);
-    printf("%d^%d = %d",base_number,base_number,Power(base_number,power_number));
+    printf("%d^%d = %d\n",base_number,base_number,Power(base_number,power_number));
 }
