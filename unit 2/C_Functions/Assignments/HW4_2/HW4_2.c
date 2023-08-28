@@ -7,12 +7,11 @@ Author: Habeba Emad
 
 #include<stdio.h>
 
+int result=1;
+
 int factorial(unsigned int downcounter)
 {
-    static int result =1;
-    if(downcounter==0)
-    result=1;
-    else
+    if(downcounter!=0)
     {
     result*=downcounter;
     downcounter--;
