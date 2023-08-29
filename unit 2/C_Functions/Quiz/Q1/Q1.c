@@ -7,9 +7,9 @@ Author: Habeba Emad
 
 #include<stdio.h>
 #include<string.h>
-void check(int string[])
+void check(char string[])
 {
-    if(strcmp(string,"Habeba Emad")==0)
+    if(stricmp(string,"Habeba Emad")==0)
     {
         printf("The string is the same as USERNAME\n");
     }
