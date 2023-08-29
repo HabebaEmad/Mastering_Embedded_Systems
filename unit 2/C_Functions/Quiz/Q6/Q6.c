@@ -27,9 +27,7 @@ int dec_to_bin_L4(int n)
         printf("%d",fin_binary[j]);
     }
     printf("\n4th least significant bit = %d",bin[3]);
-
-
-
+    
 }
 
 int main()
