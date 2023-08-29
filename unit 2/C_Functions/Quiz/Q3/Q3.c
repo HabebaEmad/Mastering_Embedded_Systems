@@ -12,7 +12,7 @@ void Reverse_Array(int Array[],int n)
     for(int i=0;i<n ; i++)
     {
         arr[i]=Array[(n-1)-i];
-        printf("%d,",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
 
