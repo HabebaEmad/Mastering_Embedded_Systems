@@ -6,6 +6,7 @@ Author: Habeba Emad
 */
 
 #include<stdio.h>
+
 int main()
 {
     float a,b;

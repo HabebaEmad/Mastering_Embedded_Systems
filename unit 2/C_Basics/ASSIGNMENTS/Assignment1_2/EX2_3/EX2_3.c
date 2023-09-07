@@ -7,6 +7,7 @@ Author: Habeba Emad
 
 #include<stdio.h>
 
+
 int main()
 {
     float x, y, z;
