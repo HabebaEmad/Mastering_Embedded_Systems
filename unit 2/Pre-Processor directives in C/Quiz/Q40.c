@@ -1,3 +1,11 @@
+/*
+===========================================
+Name: Quiz program without main function.c
+Author: Habeba Emad 
+============================================
+*/
+
+
 #include <stdio.h>
 
  #define macro(n,a,i,m) m##a##i##n
